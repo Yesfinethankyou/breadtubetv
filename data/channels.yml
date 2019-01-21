@@ -32,12 +32,14 @@
   name: "Contrapoints"
   slug: "contrapoints"
   url: "https://www.youtube.com/contrapoints"
+  description: "Explains political and social justice issues in funny and accessible way, utilising atmospheric lighting, lavish sets and costumes and memorable characters to illustrate her points."
   subscribers: 399836
   tags: ["breadtube"]
 -
   name: "hbomberguy"
   slug: "hbomberguy"
   url: "https://www.youtube.com/hbomberguy"
+  description: "Debunks and mocks the views of right-wing YouTube commentators. Combines silly sketch comedy with well-researched critiques. Also reviews media like TV and video games."
   subscribers: 325262
   tags: ["breadtube"]
 -
@@ -68,6 +70,7 @@
   name: "Shaun"
   slug: "shaun"
   url: "https://www.youtube.com/channel/UCJ6o36XL0CpYb6U5dNBiXHQ"
+  description: "Creates longform, extremely thorough and straightforward rebuttals of right-wing videos. His content is also very researched and relies on some very sly, dry humour. Has also begun making videos explaining left-wing positions on issues such as 'How Privatisation Fails: Railways'."
   subscribers: 180487
   tags: ["breadtube"]
 -

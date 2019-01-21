@@ -1,4 +1,13 @@
-<a class="tile p-1 mb-2" href="{{ .channel.url }}" data-groups='{{ if .channel.tags }}{{ delimit .channel.tags "," }}{{ end }}' target="_blank">
-  <img class="tile-img img-fluid" src="/img/channels/{{ .channel.slug }}.jpg" alt="{{ .channel.name }}"></img>
-  <span class="tile-title pt-2 font-weight-bold d-inline-block">{{ .channel.name }}</span>
-</a>
+<div class="col-6 col-sm-4 col-md-3 col-xl-1 mb-4 d-flex">
+  <div class="card card-channel flex-fill">
+    <a href="{{ .channel.url }}" target="_blank">
+      <img alt="{{ .channel.name }}" class="img-channel card-img-top" src="/img/channels/{{ .channel.slug }}.jpg" ></img>
+    </a>
+    <div class="card-body pt-3 pb-0 pl-3 pr-3">
+      <h3 class="h5 font-weight-bold mb-0">
+        <a href="{{ .channel.url }}" target="_blank">{{ .channel.name }}</a>
+      </h3>
+      <!--p class="mb-0">{{ .channel.description }}</p-->
+    </div>
+  </div>
+</div>
